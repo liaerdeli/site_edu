@@ -20,3 +20,28 @@
     text-decoration: underline;
     font-size: 12px;
 }
+.header-menu {
+    display: flex;
+}
+.header-menu-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu-list__item a {
+    display: inline-block;
+    padding: 20px 15px;
+    text-transform: uppercase;
+    color: black;
+}
+.header-menu-list__item:hover a,
+.header-menu-list__item_active a
+{
+    color: red;
+ }
+.header-menu__logo img {
+    width: 150px;
+    height: auto;
+}
