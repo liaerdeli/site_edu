@@ -1,6 +1,6 @@
 .header-contacts {
     background: #f9b233;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 .header-contacts__information {
     display: flex;
@@ -8,6 +8,7 @@
     color: white;
     width: 600px;
     text-transform: uppercase;
+    font-size: 12px;
 }
 .header-items {
     display: flex;
@@ -17,4 +18,5 @@
     color: red;
     text-transform: uppercase;
     text-decoration: underline;
+    font-size: 12px;
 }
