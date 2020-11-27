@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="app/css/bootstrap.css" rel="stylesheet">
+    <link href="app/css/main.css" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app" class="container">
+        <div class="app__title">
+            <h1>Your todo-list</h1>
+        </div>
+        <div class="app__wrapper">
+            <div>
+                <input type="text" v-model="text" v-on:keyup.enter="add" class="form-control" placeholder="Какие у вас задачи на сегодня?">
+            </div>
+            <div class="app__tasks">
+                <ul class="app__list">
+                    <li v-for="task in tasks">
+                        <span class="glyphicon glyphicon-unchecked app__task-icon"></span>{{task}}
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="app/js/vue.js"></script>
+    <script src="app/js/main.js"></script>
+</body>
+</html>

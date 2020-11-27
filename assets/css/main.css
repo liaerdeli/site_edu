@@ -45,3 +45,50 @@
     width: 150px;
     height: auto;
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    background: #444444;
+    color: white;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+.footer__name {
+    color: #909090;
+}
+.footer a {
+    color: white;
+}
+.form__btn {
+    color: white;
+    background: red;
+    border: 0;
+    width: 100px;
+    height: auto;
+}
+.form__title {
+    margin-bottom: 10px;
+}
+.footer input,
+.footer textarea {
+    color: black;
+    width: 265px;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.footer-information {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-information__logo {
+    height: auto;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.footer-information__contacts {
+    line-height: 40px;
+}

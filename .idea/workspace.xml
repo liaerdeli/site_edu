@@ -19,10 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3b39fba-5d1d-48e8-892c-2bcd23627141" name="Default Changelist" comment="Пофиксила размер шрифта и паддинг">
+    <list default="true" id="e3b39fba-5d1d-48e8-892c-2bcd23627141" name="Default Changelist" comment="vue">
+      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toDo/app/js/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toDo/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/toDo/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toDo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/toDo/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +50,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kgdi6iYaqs6fg1kfaguboFbJu4" />
@@ -53,9 +74,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/toDo/app" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ThinkPad\Documents\project\site_edu\toDo\app" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,7 +94,13 @@
       <updated>1606126292743</updated>
       <workItem from="1606126293890" duration="5776000" />
       <workItem from="1606203780564" duration="1128000" />
-      <workItem from="1606212584616" duration="3324000" />
+      <workItem from="1606212584616" duration="3432000" />
+      <workItem from="1606291737802" duration="16000" />
+      <workItem from="1606292485877" duration="361000" />
+      <workItem from="1606298871349" duration="4216000" />
+      <workItem from="1606376508677" duration="23000" />
+      <workItem from="1606377013153" duration="7039000" />
+      <workItem from="1606466594665" duration="6575000" />
     </task>
     <task id="LOCAL-00001" summary="Пофиксила размер шрифта и паддинг">
       <created>1606204845075</created>
@@ -76,7 +109,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606204845075</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="menu">
+      <created>1606216005967</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606216005967</updated>
+    </task>
+    <task id="LOCAL-00003" summary="укрощение футера часть 1">
+      <created>1606378444784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606378444784</updated>
+    </task>
+    <task id="LOCAL-00004" summary="vue">
+      <created>1606468208152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606468208152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,12 +150,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Пофиксила размер шрифта и паддинг" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пофиксила размер шрифта и паддинг" />
+    <MESSAGE value="menu" />
+    <MESSAGE value="укрощение футера часть 1" />
+    <MESSAGE value="vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606204853914">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606468217204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606204853914" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606468217204" />
   </component>
 </project>
