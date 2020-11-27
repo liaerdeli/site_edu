@@ -1,0 +1,33 @@
+body {
+    background: rgba(255,174,169,0.23);
+}
+.app__title {
+    color: #ff1826;
+    text-align: center;
+}
+.app__wrapper {
+    width: 600px;
+    margin: 0 auto;
+    background: white;
+}
+.app__tasks {
+    padding: 10px 13px;
+}
+.app__task-icon {
+    margin-right: 10px;
+    color: rgba(203,201,202,0.64);
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}
+.app__task-icon:hover {
+    cursor: pointer;
+}
+.app__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.app__list li {
+    margin-bottom: 10px ;
+}
