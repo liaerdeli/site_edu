@@ -20,22 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3b39fba-5d1d-48e8-892c-2bcd23627141" name="Default Changelist" comment="vue">
-      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toDo/app/js/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toDo/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/toDo/app/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toDo/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/toDo/app/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toDo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/toDo/index.html" afterDir="false" />
     </list>
