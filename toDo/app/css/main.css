@@ -10,6 +10,10 @@ body {
     margin: 0 auto;
     background: white;
 }
+.app__wrapper_items {
+    display: flex;
+    justify-content: space-between;
+}
 .app__tasks {
     padding: 10px 13px;
 }
@@ -37,4 +41,13 @@ body {
 }
 .app__tasks-done {
     text-decoration: line-through;
+}
+.form-control_width {
+    width: 400px;
+    margin: 20px 0;
+}
+.btn-add-task {
+    margin: 20px;
+    background: red;
+    color: white;
 }

@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3b39fba-5d1d-48e8-892c-2bcd23627141" name="Default Changelist" comment="vue">
+    <list default="true" id="e3b39fba-5d1d-48e8-892c-2bcd23627141" name="Default Changelist" comment="vue icon delete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toDo/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/toDo/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toDo/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/toDo/app/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toDo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/toDo/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +86,7 @@
       <workItem from="1606376508677" duration="23000" />
       <workItem from="1606377013153" duration="7039000" />
       <workItem from="1606466594665" duration="6575000" />
+      <workItem from="1606812645593" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="Пофиксила размер шрифта и паддинг">
       <created>1606204845075</created>
@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606468208152</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="vue icon delete">
+      <created>1606736441435</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606736441435</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,12 +146,13 @@
     <MESSAGE value="menu" />
     <MESSAGE value="укрощение футера часть 1" />
     <MESSAGE value="vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue" />
+    <MESSAGE value="vue icon delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue icon delete" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606468217204">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606736448699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606468217204" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606736448699" />
   </component>
 </project>

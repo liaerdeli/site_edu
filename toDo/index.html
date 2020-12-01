@@ -12,9 +12,17 @@
             <h1>Your todo-list</h1>
         </div>
         <div class="app__wrapper">
-            <div>
-                <input type="text" v-model="text" v-on:keyup.enter="add" class="form-control" placeholder="Какие у вас задачи на сегодня?">
+            <div class="app__wrapper_items">
+                <div>
+                    <input type="text" v-model="text" v-on:keyup.enter="add" class="form-control form-control_width" placeholder="Какие у вас задачи на сегодня?">
+                </div>
+                <div>
+                    <button type="button" class="btn btn-add-task" v-on:click="add">
+                        Add task
+                    </button>
+                </div>
             </div>
+
             <div class="app__tasks">
                 <ul class="app__list">
                     <li v-bind:class="statusItem(task)" v-for="(task, index) in tasks">
