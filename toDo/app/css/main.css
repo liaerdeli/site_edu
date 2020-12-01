@@ -42,12 +42,11 @@ body {
 .app__tasks-done {
     text-decoration: line-through;
 }
-.form-control_width {
-    width: 400px;
-    margin: 20px 0;
-}
+
 .btn-add-task {
-    margin: 20px;
     background: red;
     color: white;
+}
+.btn-add-task:hover {
+    color: white
 }

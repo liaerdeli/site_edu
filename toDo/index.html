@@ -12,26 +12,44 @@
             <h1>Your todo-list</h1>
         </div>
         <div class="app__wrapper">
-            <div class="app__wrapper_items">
-                <div>
-                    <input type="text" v-model="text" v-on:keyup.enter="add" class="form-control form-control_width" placeholder="Какие у вас задачи на сегодня?">
-                </div>
-                <div>
+            <div class="input-group">
+                <input type="text" v-model="text" v-on:keyup.enter="add" class="form-control" placeholder="Какие у вас задачи на сегодня?">
+                <span class="input-group-btn">
                     <button type="button" class="btn btn-add-task" v-on:click="add">
                         Add task
                     </button>
-                </div>
+                </span>
             </div>
 
             <div class="app__tasks">
                 <ul class="app__list">
-                    <li v-bind:class="statusItem(task)" v-for="(task, index) in tasks">
+                    <li v-bind:class="statusItem(task)" v-for="(task, index) in filteredTasks">
                         <span v-on:click="changeTaskStatus(task)" v-bind:class="statusIcon(task)" class="glyphicon  app__task-icon"></span>
                         <span>{{task.taskText}}</span>
                         <span class="glyphicon glyphicon-trash app__task-icon app__task-icon_delete" v-on:click="deleteTask(index)"></span>
 
                     </li>
                 </ul>
+                <div>
+                    <ul class="nav nav-pills">
+                        <li v-bind:class="navIcon('all')">
+                            <a href="#" v-on:click.prevent="changeState('all')">
+                                All <span class="badge">{{tasks.length}}</span>
+                            </a>
+                        </li>
+                        <li v-bind:class="navIcon('completed')">
+                            <a href="#" v-on:click.prevent="changeState('completed')">
+                                Completed <span class="badge">{{completedTasks.length}}</span>
+                            </a>
+                        </li>
+                        <li v-bind:class="navIcon('uncompleted')">
+                            <a href="#" v-on:click.prevent="changeState('uncompleted')">
+                                Uncompleted <span class="badge">{{uncompletedTasks.length}}</span>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

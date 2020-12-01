@@ -7,11 +7,31 @@ new Vue({
                 taskStatus: false,
                 taskText: 'Сделать из Ани суперпрограммиста'
             }
+        ],
+        tasksState: 'all'
 
+    },
+    computed: {
+        filteredTasks: function () {
+             if (this.tasksState === 'completed') {
+                return this.completedTasks
+             } else if (this.tasksState === 'uncompleted') {
+                return this.uncompletedTasks
+            } else {
+                return this.tasks
+            }
 
-
-        ]
-
+        },
+        completedTasks: function () {
+            return this.tasks.filter(function (task) {
+                return task.taskStatus === true
+            })
+        },
+        uncompletedTasks: function () {
+            return this.tasks.filter(function (task) {
+                return task.taskStatus === false
+            })
+        }
     },
     methods: {
         add: function () {
@@ -40,7 +60,17 @@ new Vue({
             return {
                 'app__tasks-done': task.taskStatus === true
             }
+        },
+        changeState: function (tasksState) {
+            this.tasksState = tasksState
+
+        },
+        navIcon: function (navState) {
+            return {
+                'active': this.tasksState === navState
+            }
         }
+
 
     }
 })
